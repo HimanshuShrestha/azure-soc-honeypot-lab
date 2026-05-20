@@ -60,7 +60,7 @@ This screenshot shows my custom alert rule firing on the left, and the raw log q
 The visual map workbook showing the huge red circles over Eastern Europe where the automated botnets were blasting our open RDP port.
 <img width="614" height="341" alt="Geolocation of Attackers" src="https://github.com/user-attachments/assets/dc2acb9e-ca3b-4840-9fba-c13ed77023b4" />
 
-**Post-Remediation **Check<br>
+**Post-Remediation Check**<br>
 Proof that our lockdown worked, showing that the failed login attempts completely flatlined to zero once the firewall rule was limited to my personal IP.
 <img width="953" height="455" alt="Post-Remediation" src="https://github.com/user-attachments/assets/42a736ae-2de8-4c2f-9985-4978107530db" />
 
