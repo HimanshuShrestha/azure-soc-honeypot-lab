@@ -1,3 +1,4 @@
+
 # Cloud-Native SIEM & Honeypot Deployment (Azure Sentinel)
 
 ## Overview
@@ -12,7 +13,7 @@ Over 24 hours, the environment captured over 74k automated brute force attacks, 
 - Remote Desktop Protocol (RDP-port 3389)
 
 ## Architecture
-
+<img width="916" height="501" alt="Lab Architecture" src="https://github.com/user-attachments/assets/6b8ecc3b-f201-4115-b37e-fb6ac75513cc" />
 
 ## What I did
 1. Asset Provisioning & Vulnerability Introduction
