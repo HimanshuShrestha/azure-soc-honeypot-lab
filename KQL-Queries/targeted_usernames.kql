@@ -1,0 +1,7 @@
+// Analyzes the credential dictionary wordlists used by the automated botnets
+
+SecurityEvent 
+| where TimeGenerated >= ago(24h)
+| where EventID == 4625 
+| summarize UsernameCount = count() by TargetUserName 
+| top 5 by UsernameCount
