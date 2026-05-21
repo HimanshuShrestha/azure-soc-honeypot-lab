@@ -1,0 +1,6 @@
+// Verification control query to confirm that perimeter hardening dropped attack traffic to zero
+
+SecurityEvent 
+| where TimeGenerated >= ago(15m)
+| where EventID == 4625 
+| count
