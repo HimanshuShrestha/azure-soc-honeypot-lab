@@ -1,0 +1,7 @@
+// Identifies the top 5 source public IP addresses executing brute-force attacks
+
+SecurityEvent 
+| where TimeGenerated >= ago(24h)
+| where EventId == 4625
+| summarize AttackCount == count () by IpAddress
+| top 5 by AttackCount
