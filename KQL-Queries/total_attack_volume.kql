@@ -1,0 +1,5 @@
+// Calculates the total baseline volume of failed RDP connections over a 24-hour window
+SecurityEvent 
+| where TimeGenerated >= ago(24h)
+| where EventID == 4625 
+| count
