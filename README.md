@@ -65,3 +65,7 @@ The visual map workbook showing the huge red circles over Eastern Europe where t
 Proof that our lockdown worked, showing that the failed login attempts completely flatlined to zero once the firewall rule was limited to my personal IP.
 <img width="953" height="455" alt="Post-Remediation" src="https://github.com/user-attachments/assets/42a736ae-2de8-4c2f-9985-4978107530db" />
 
+## Scope & Notes
+
+This project was performed in a personal Microsoft Azure lab for learning purposes. The environment was intentionally exposed for a limited period to observe and analyze real-world automated attack traffic. It represents hands-on practice with SIEM monitoring, log analysis, KQL, detection engineering, and basic incident investigation—not production or enterprise SOC experience.
+
