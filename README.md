@@ -67,5 +67,5 @@ Proof that our lockdown worked, showing that the failed login attempts completel
 
 ## Scope & Notes
 
-This project was performed in a personal Microsoft Azure lab for learning purposes. The environment was intentionally exposed for a limited period to observe and analyze real-world automated attack traffic. It represents hands-on practice with SIEM monitoring, log analysis, KQL, detection engineering, and basic incident investigation—not production or enterprise SOC experience.
+This project was performed in a personal Microsoft Azure lab for learning purposes. The environment was intentionally exposed for a limited period to observe and analyze real-world automated attack traffic. It represents hands-on practice with SIEM monitoring, log analysis, KQL, detection engineering, and basic incident investigation, not production or enterprise SOC experience.
 
